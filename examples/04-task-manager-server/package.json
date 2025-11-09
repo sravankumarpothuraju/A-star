@@ -1,0 +1,17 @@
+{
+  "name": "mcp-task-manager-server",
+  "version": "1.0.0",
+  "description": "MCP server for task management with persistence",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["mcp", "tasks", "productivity", "model-context-protocol"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  }
+}
